@@ -14,4 +14,14 @@ http代理服务器
 
 6.客户端获取响应
 
+默认请求地址: 127.0.0.1:1090,如有更改端口需要可在main.c文件中更改，无getopt解析选项,此代理服务器为阻塞型服务器。
+
+运行方式: `./httpproxy_dev`
+
 测试方法: `curl -x http://127.0.0.1:1090 -I http://example.com`
+
+测试环境: Ubuntu 16.04
+
+logger版本：0.1.0
+
+https://github.com/shiffthq/logger
